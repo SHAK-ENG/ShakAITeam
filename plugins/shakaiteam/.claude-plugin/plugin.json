@@ -1,6 +1,6 @@
 {
   "name": "shakaiteam",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A token-efficient AI R&D organisation: asks instead of needing perfect prompts, remembers each main character (brand, product, client) across sessions, and staffs every task with the right agent at the right seniority and model.",
   "author": {
     "name": "ShakAITeam"
