@@ -82,8 +82,24 @@ Restart Claude Code after installing. Then check that `/shakaiteam:team` works.
 | `/shakaiteam:shak <request>` | Front desk: intake → questions → team → work → memory |
 | `/shakaiteam:entity list \| show \| new \| update \| tidy <name>` | Manage main-character memory |
 | `/shakaiteam:team` | Show the org chart |
+| `/shakaiteam:stats [last N \| task-type \| entity]` | Token tracker: tokens per task, cost units, savings, trends |
+| `/shakaiteam:retro [last N]` | Team retrospective: learns from ratings and the ledger, proposes tuning, applies what you approve |
 
-You can also call any agent directly, e.g. *"use the shakaiteam engineer-junior agent to rename X"*.
+## Token tracker and a team that learns
+
+Every `/shak` task is logged. Agent token counts come from Claude Code's own usage report for each agent; nothing is estimated.
+
+- `ledger/steps.csv` has one row per agent step: role, level, model, tokens, tool uses, result.
+- `ledger/tasks.csv` has one row per task: team, total tokens, **cost units** (tokens weighted by model price), **baseline** (the same work all on the top model), **saved %**, revisions, escalations, and your one-click rating.
+
+The team improves in the same ways real engineers do with experience:
+1. **Lessons.** Agents report reusable `LESSON:` lines, such as "this repo's tests run with `npm test -- <path>`". They're kept in `playbooks/<role>.md` and passed to that role on later tasks.
+2. **Feedback.** A "Needs fixes" or "Redo" rating becomes a lesson for the role that made the deliverable.
+3. **Retros.** `/shakaiteam:retro` checks escalations, reviewer pass rates, token outliers and ratings. It then proposes changes, such as starting a task type at senior level, dropping a review that always passes, or making an answer you always give the default. It applies only what you approve, then checks at the next retro whether each change helped.
+
+All of this data lives in `~/.claude/shakaiteam/`, outside the plugin, so updates never erase what the team has learned. Model cost weights are in `cost-weights.md`. Update them from Anthropic's current pricing page.
+
+*Honest note:* "saved %" counts routing savings only. Savings from fewer questions and remembered context show up as **falling tokens per task type over time**, which `/stats` reports as the trend.
 
 ## Where memory lives
 
@@ -109,7 +125,9 @@ ShakAITeam/
    └─ skills/
       ├─ shak/       SKILL.md, reference/(routing, brief-format), templates/(task types)
       ├─ entity/     SKILL.md, template/(profile, brand, learnings, history)
-      └─ team/       SKILL.md
+      ├─ team/       SKILL.md
+      ├─ stats/      SKILL.md   ← token tracker report
+      └─ retro/      SKILL.md   ← team learning loop
 ```
 
 ## Honest limits
