@@ -27,4 +27,4 @@ Print this table as-is (do not read any other files):
 | Marketing | video-producer | L2 | Sonnet | Storyboards, ad videos |
 | Quality | reviewer | L3 | Sonnet → Opus at Polished | Quality gate for any deliverable |
 
-Then add one line: "Start a task with `/shakaiteam:shak <what you want>` — the front desk asks a few questions, proposes a team, and you approve it. The model column is the default; `/shak` raises or lowers it by polish level."
+Then add one line: "Start a task with `/shakaiteam:shak <what you want>` — the front desk asks a few questions, proposes a team, and you approve it. The model column is the default; `/shak` raises or lowers it by polish level. Track tokens with `/shakaiteam:stats`; tune the team with `/shakaiteam:retro`."
