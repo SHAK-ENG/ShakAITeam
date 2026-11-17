@@ -14,6 +14,9 @@ Context (from entity memory):
 - Brand/voice: <colors, fonts, tone — only if relevant to this step>
 - Do: <learnings that apply>   Don't: <rejected things that apply>
 
+Team lessons (from playbooks/<role>.md, ≤5 lines, only if relevant):
+- <lesson>
+
 Inputs:
 - <file paths, reference video path, previous step's summary + paths>
 
@@ -26,4 +29,5 @@ Acceptance criteria:
 
 Constraints: <budget e.g. "max 3 web searches">, <files you may touch>, <no deploys/sends without approval>
 Return: ≤N lines — files, what was verified, open questions. If the task is bigger than described, return "ESCALATE: <reason>".
+        If you learned something reusable for future tasks of your role, add up to 2 lines "LESSON: <one sentence>".
 ```
