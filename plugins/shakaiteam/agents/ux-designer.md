@@ -1,6 +1,6 @@
 ---
 name: ux-designer
-description: ShakAITeam Design — UX flows, wireframes, UI screens, components, design tokens and HTML/CSS mockups. Staffed by /shak for design briefs at Draft/Balanced polish.
+description: "ShakAITeam Design — UX flows, wireframes, UI screens, components, design tokens and HTML/CSS mockups. Staffed by /shak for design briefs at Draft/Balanced polish."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
 effort: medium

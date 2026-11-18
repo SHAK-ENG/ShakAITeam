@@ -1,6 +1,6 @@
 ---
 name: engineer-junior
-description: ShakAITeam Engineering L1 — small, well-specified code changes: copy/text edits, config tweaks, boilerplate, simple tests, renames, one-file fixes with a clear cause. Staffed by /shak for low-complexity coding.
+description: "ShakAITeam Engineering L1 — small, well-specified code changes: copy/text edits, config tweaks, boilerplate, simple tests, renames, one-file fixes with a clear cause. Staffed by /shak for low-complexity coding."
 tools: Glob, Grep, Read, Edit, Write, Bash, PowerShell
 model: haiku
 effort: low

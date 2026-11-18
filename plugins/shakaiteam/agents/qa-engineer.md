@@ -1,6 +1,6 @@
 ---
 name: qa-engineer
-description: ShakAITeam Engineering — writes and runs tests, reproduces bugs, verifies features against acceptance criteria, and reports pass/fail evidence. Staffed by /shak as the verification step.
+description: "ShakAITeam Engineering — writes and runs tests, reproduces bugs, verifies features against acceptance criteria, and reports pass/fail evidence. Staffed by /shak as the verification step."
 tools: Glob, Grep, Read, Edit, Write, Bash, PowerShell
 model: sonnet
 effort: low

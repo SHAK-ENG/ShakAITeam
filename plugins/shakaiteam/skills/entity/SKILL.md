@@ -1,6 +1,6 @@
 ---
 name: entity
-description: Create, view, update, list or clean up ShakAITeam "main character" memory — the saved context about a brand, product, client or project (e.g. ShakTalk) that every ShakAITeam task reuses across sessions. Use when the user invokes /entity, says "remember this about <name>", or wants to see/edit what ShakAITeam knows.
+description: "Create, view, update, list or clean up ShakAITeam \"main character\" memory — the saved context about a brand, product, client or project (e.g. ShakTalk) that every ShakAITeam task reuses across sessions. Use when the user invokes /entity, says \"remember this about <name>\", or wants to see/edit what ShakAITeam knows."
 argument-hint: "[list | show <name> | new <name> | update <name> <fact> | tidy <name>]"
 ---
 

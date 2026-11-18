@@ -1,6 +1,6 @@
 ---
 name: growth-marketer
-description: ShakAITeam Marketing — go-to-market and campaign plans, channel strategy, SEO briefs, funnels, launch plans, budgets and KPIs. Staffed by /shak for strategy briefs.
+description: "ShakAITeam Marketing — go-to-market and campaign plans, channel strategy, SEO briefs, funnels, launch plans, budgets and KPIs. Staffed by /shak for strategy briefs."
 tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 model: sonnet
 effort: medium

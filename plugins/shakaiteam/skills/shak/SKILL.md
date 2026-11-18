@@ -1,6 +1,6 @@
 ---
 name: shak
-description: ShakAITeam front desk. Turns a rough request ("make an ad for ShakTalk from this video", "fix login", "plan the launch") into a complete brief by asking a few click-to-answer questions, loads the remembered context of the main character (brand/product/client/project), lets the user staff the job from a levelled R&D team, routes each step to the right model, and saves what was learned for next time. Use when the user invokes /shak or asks ShakAITeam to handle a task.
+description: "ShakAITeam front desk. Turns a rough request (\"make an ad for ShakTalk from this video\", \"fix login\", \"plan the launch\") into a complete brief by asking a few click-to-answer questions, loads the remembered context of the main character (brand/product/client/project), lets the user staff the job from a levelled R&D team, routes each step to the right model, and saves what was learned for next time. Use when the user invokes /shak or asks ShakAITeam to handle a task."
 argument-hint: "<what you want, in your own words>"
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: team
-description: Show the ShakAITeam org chart — every role, its seniority level, default model and what it is for — so the user can pick or request specific agents. Use when the user invokes /team or asks who is on ShakAITeam.
+description: "Show the ShakAITeam org chart — every role, its seniority level, default model and what it is for — so the user can pick or request specific agents. Use when the user invokes /team or asks who is on ShakAITeam."
 ---
 
 Print this table as-is (do not read any other files):

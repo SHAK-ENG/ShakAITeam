@@ -1,6 +1,6 @@
 ---
 name: data-scientist
-description: ShakAITeam Research — data analysis, metrics, experiment design (A/B tests), forecasting and evaluation of results from CSV/JSON/SQL data. Staffed by /shak for analytical briefs.
+description: "ShakAITeam Research — data analysis, metrics, experiment design (A/B tests), forecasting and evaluation of results from CSV/JSON/SQL data. Staffed by /shak for analytical briefs."
 tools: Read, Write, Glob, Grep, Bash, PowerShell
 model: sonnet
 effort: high

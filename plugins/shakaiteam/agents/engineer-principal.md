@@ -1,6 +1,6 @@
 ---
 name: engineer-principal
-description: ShakAITeam Engineering L4 (CTO-level) — system architecture, technology choices, data models, scaling/performance strategy, and the hardest bugs. Staffed by /shak sparingly: design decisions and Polished-level critical work.
+description: "ShakAITeam Engineering L4 (CTO-level) — system architecture, technology choices, data models, scaling/performance strategy, and the hardest bugs. Staffed by /shak sparingly: design decisions and Polished-level critical work."
 tools: Glob, Grep, Read, Write, Edit, Bash, PowerShell, WebFetch
 model: opus
 effort: high

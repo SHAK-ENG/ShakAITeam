@@ -1,6 +1,6 @@
 ---
 name: engineer-mid
-description: ShakAITeam Engineering L2 — standard features and bug fixes within one area of the codebase, with tests. The default engineer. Staffed by /shak for medium-complexity coding.
+description: "ShakAITeam Engineering L2 — standard features and bug fixes within one area of the codebase, with tests. The default engineer. Staffed by /shak for medium-complexity coding."
 tools: Glob, Grep, Read, Edit, Write, Bash, PowerShell
 model: sonnet
 effort: medium

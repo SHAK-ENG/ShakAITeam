@@ -1,6 +1,6 @@
 ---
 name: technical-writer
-description: ShakAITeam Operations — READMEs, user guides, API docs, changelogs, release notes, CLAUDE.md files and internal how-tos. Staffed by /shak for documentation briefs.
+description: "ShakAITeam Operations — READMEs, user guides, API docs, changelogs, release notes, CLAUDE.md files and internal how-tos. Staffed by /shak for documentation briefs."
 tools: Read, Write, Edit, Glob, Grep
 model: haiku
 effort: low

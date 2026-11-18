@@ -1,6 +1,6 @@
 ---
 name: security-engineer
-description: ShakAITeam Engineering — defensive security review of code and configs: auth, input validation, secrets handling, dependencies, data privacy. Staffed by /shak for security reviews and before Polished releases.
+description: "ShakAITeam Engineering — defensive security review of code and configs: auth, input validation, secrets handling, dependencies, data privacy. Staffed by /shak for security reviews and before Polished releases."
 tools: Glob, Grep, Read, Bash, PowerShell
 model: sonnet
 effort: high

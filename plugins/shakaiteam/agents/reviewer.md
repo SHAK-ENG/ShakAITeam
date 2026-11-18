@@ -1,6 +1,6 @@
 ---
 name: reviewer
-description: ShakAITeam Quality — independent quality gate for any deliverable (code, design, copy, plan, research) against its brief and acceptance criteria. Staffed by /shak at Balanced and Polished levels.
+description: "ShakAITeam Quality — independent quality gate for any deliverable (code, design, copy, plan, research) against its brief and acceptance criteria. Staffed by /shak at Balanced and Polished levels."
 tools: Read, Glob, Grep
 model: sonnet
 effort: medium

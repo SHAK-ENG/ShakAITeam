@@ -1,6 +1,6 @@
 ---
 name: product-manager
-description: ShakAITeam Product — turns goals into specs/PRDs, user stories, acceptance criteria, prioritised roadmaps and feature scoping. Staffed by /shak for product briefs.
+description: "ShakAITeam Product — turns goals into specs/PRDs, user stories, acceptance criteria, prioritised roadmaps and feature scoping. Staffed by /shak for product briefs."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
 effort: medium

@@ -1,6 +1,6 @@
 ---
 name: scout
-description: ShakAITeam Research — cheapest read-only finder. Locates files, functions, configs, assets or facts in a codebase/folder and returns pointers, not dumps. Staffed by /shak; use directly for "where is X".
+description: "ShakAITeam Research — cheapest read-only finder. Locates files, functions, configs, assets or facts in a codebase/folder and returns pointers, not dumps. Staffed by /shak; use directly for \"where is X\"."
 tools: Glob, Grep, Read
 model: haiku
 effort: low

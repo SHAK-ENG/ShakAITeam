@@ -1,6 +1,6 @@
 ---
 name: research-analyst
-description: ShakAITeam Research — market, competitor, technology and literature research with cited, compressed findings. Staffed by /shak for research briefs.
+description: "ShakAITeam Research — market, competitor, technology and literature research with cited, compressed findings. Staffed by /shak for research briefs."
 tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 model: sonnet
 effort: medium

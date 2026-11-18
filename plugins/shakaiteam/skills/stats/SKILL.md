@@ -1,6 +1,6 @@
 ---
 name: stats
-description: ShakAITeam token tracker report — tokens and cost units per task, savings versus the all-top-model baseline, trends per task type, and which roles/models consume the most. Use when the user invokes /stats or asks how many tokens ShakAITeam used or saved.
+description: "ShakAITeam token tracker report — tokens and cost units per task, savings versus the all-top-model baseline, trends per task type, and which roles/models consume the most. Use when the user invokes /stats or asks how many tokens ShakAITeam used or saved."
 argument-hint: "[last N | <task-type> | <entity>]"
 ---
 

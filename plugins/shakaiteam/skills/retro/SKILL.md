@@ -1,6 +1,6 @@
 ---
 name: retro
-description: ShakAITeam retrospective — reviews the token ledger, ratings, escalations and lessons from recent tasks, then proposes and (after the user approves) applies tuning to routing, task-template defaults and role playbooks, so the team gets cheaper and better with experience. Use when the user invokes /retro, after every ~10 tasks, or when asked to make the team learn or improve.
+description: "ShakAITeam retrospective — reviews the token ledger, ratings, escalations and lessons from recent tasks, then proposes and (after the user approves) applies tuning to routing, task-template defaults and role playbooks, so the team gets cheaper and better with experience. Use when the user invokes /retro, after every ~10 tasks, or when asked to make the team learn or improve."
 argument-hint: "[last N tasks, default 10]"
 ---
 

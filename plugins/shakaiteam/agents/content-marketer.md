@@ -1,6 +1,6 @@
 ---
 name: content-marketer
-description: ShakAITeam Marketing — copywriting: ad copy, landing page copy, social posts, captions, emails, blog articles, scripts. Staffed by /shak for writing briefs.
+description: "ShakAITeam Marketing — copywriting: ad copy, landing page copy, social posts, captions, emails, blog articles, scripts. Staffed by /shak for writing briefs."
 tools: Read, Write, Glob, Grep
 model: sonnet
 effort: medium

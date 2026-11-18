@@ -1,6 +1,6 @@
 ---
 name: video-producer
-description: ShakAITeam Marketing/Design — ad and social video production: scripts, storyboards, shot lists, voiceover text, music/timing sheets, and building videos with available video skills or tools (e.g. HTML motion graphics). Staffed by /shak for video briefs.
+description: "ShakAITeam Marketing/Design — ad and social video production: scripts, storyboards, shot lists, voiceover text, music/timing sheets, and building videos with available video skills or tools (e.g. HTML motion graphics). Staffed by /shak for video briefs."
 tools: Read, Write, Edit, Glob, Grep, Bash, PowerShell
 model: sonnet
 effort: medium

@@ -1,6 +1,6 @@
 ---
 name: engineer-senior
-description: ShakAITeam Engineering L3 — cross-module features, refactors, hard debugging, performance work, integrations with external APIs, and escalations from L1/L2. Staffed by /shak for high-complexity coding.
+description: "ShakAITeam Engineering L3 — cross-module features, refactors, hard debugging, performance work, integrations with external APIs, and escalations from L1/L2. Staffed by /shak for high-complexity coding."
 tools: Glob, Grep, Read, Edit, Write, Bash, PowerShell
 model: sonnet
 effort: high

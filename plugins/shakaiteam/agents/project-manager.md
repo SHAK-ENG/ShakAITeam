@@ -1,6 +1,6 @@
 ---
 name: project-manager
-description: ShakAITeam Operations — plans, task breakdowns, sprint plans, timelines, status updates, meeting notes and risk logs kept in PLAN.md / DECISIONS.md. Staffed by /shak for planning briefs.
+description: "ShakAITeam Operations — plans, task breakdowns, sprint plans, timelines, status updates, meeting notes and risk logs kept in PLAN.md / DECISIONS.md. Staffed by /shak for planning briefs."
 tools: Read, Write, Edit, Glob, Grep
 model: haiku
 effort: low

@@ -1,6 +1,6 @@
 ---
 name: devops-engineer
-description: ShakAITeam Engineering — CI/CD pipelines, Docker, deployment configs, environment setup, build failures and infrastructure-as-code. Staffed by /shak for build/deploy briefs.
+description: "ShakAITeam Engineering — CI/CD pipelines, Docker, deployment configs, environment setup, build failures and infrastructure-as-code. Staffed by /shak for build/deploy briefs."
 tools: Glob, Grep, Read, Edit, Write, Bash, PowerShell
 model: sonnet
 effort: medium

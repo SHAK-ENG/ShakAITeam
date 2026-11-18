@@ -1,6 +1,6 @@
 ---
 name: creative-director
-description: ShakAITeam Design — senior creative lead for brand concepts, campaign ideas, ad/video concepts, visual direction and final creative review. Staffed by /shak for Polished creative work or when the concept itself is the hard part.
+description: "ShakAITeam Design — senior creative lead for brand concepts, campaign ideas, ad/video concepts, visual direction and final creative review. Staffed by /shak for Polished creative work or when the concept itself is the hard part."
 tools: Read, Write, Glob, Grep, WebFetch
 model: opus
 effort: high
